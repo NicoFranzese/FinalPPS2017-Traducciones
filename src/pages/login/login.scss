@@ -1,3 +1,60 @@
-page-login {
+    img{
+        display: block;
+        margin: auto;
+        width: 250px;
+    }
 
-}
+    .input-group{
+        height: 40px;
+
+        .fa{
+            width: 20px;
+        }
+
+        .input-group-addon{
+            padding: 0 15px;
+            
+        }
+
+        input[type=text], input[type=password]{
+            font-size: 17px;
+        }
+    }
+
+    .btn{
+        font-size: 17px !important; 
+
+
+        .fa.fa-facebook-square, .fa.fa-google-plus-square{
+            float: left;
+        }  
+
+    }
+
+    span#redes{
+        display: block;
+        margin:auto;
+        color: #bbb8b8;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+    .btn>span{
+        font-size: 19px !important;
+    }
+
+    .btn.fb{
+        //background: color($colors, facebook);
+        background: #1c3467;
+        box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    }
+
+    .btn.go{
+        background: color($colors, google);
+        box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    }
+
+    .btn.ingreso{
+        //background: color($colors, greendark);
+        background: #012c3d;
+        box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    }
